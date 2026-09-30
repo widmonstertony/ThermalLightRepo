@@ -1,0 +1,21 @@
+Origin: widmonstertony
+Label: ThermalLight Repo
+Suite: stable
+Version: 1.0
+Codename: thermallight
+Architectures: iphoneos-arm64
+Components: main
+Description: ThermalLightControl for iPadOS 16 rootless jailbreaks
+Date: Wed, 30 Sep 2026 20:30:54 UTC
+MD5Sum:
+ c52b792227439463759771a71106f69f 828 Packages
+ 3661ba571f137a49e08a4aff7932d9ce 530 Packages.gz
+ cb242e3a4cf7a22d0c3e7e6e520808d5 583 Packages.bz2
+SHA1:
+ 9d51b7e00b0e39a3be0fbe7ec8f68e2a9f3a6105 828 Packages
+ bdb158f2edb1f006c68cbdcdc8003c79bbc502bc 530 Packages.gz
+ e4c7c74b7238b9f73ba0db7daa3643f250e2952a 583 Packages.bz2
+SHA256:
+ 2a6c0364fd1f80eb74dd0408f46175bcd570d394ff27f9326e6cc73f3f396b70 828 Packages
+ d4e545c36820f40e0fd47f2ca069ad256c13351abd7717fcd6c1d3464a431fbf 530 Packages.gz
+ 1c4736e657b70aaf72d3e72006298f3cda06fd1d7a88243e78a6e2a28e8d8897 583 Packages.bz2
