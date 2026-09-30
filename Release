@@ -1,21 +1,21 @@
 Origin: widmonstertony
-Label: ThermalLight Repo
+Label: Tony Repo
 Suite: stable
 Version: 1.0
-Codename: thermallight
+Codename: tonyrepo
 Architectures: iphoneos-arm64
 Components: main
-Description: ThermalLightControl for iPadOS 16 rootless jailbreaks
-Date: Wed, 30 Sep 2026 20:30:54 UTC
+Description: Personal rootless jailbreak tweak repository by widmonstertony
+Date: Wed, 30 Sep 2026 20:54:11 UTC
 MD5Sum:
- c52b792227439463759771a71106f69f 828 Packages
- 3661ba571f137a49e08a4aff7932d9ce 530 Packages.gz
- cb242e3a4cf7a22d0c3e7e6e520808d5 583 Packages.bz2
+ 3304f3292389d5167e7bbc4db27c8c4a 811 Packages
+ f6f9bf0d75853e569aa3210f43dc87ac 529 Packages.gz
+ 96bb00f4408f9e267f3dacdf9cbb233f 592 Packages.bz2
 SHA1:
- 9d51b7e00b0e39a3be0fbe7ec8f68e2a9f3a6105 828 Packages
- bdb158f2edb1f006c68cbdcdc8003c79bbc502bc 530 Packages.gz
- e4c7c74b7238b9f73ba0db7daa3643f250e2952a 583 Packages.bz2
+ 373ddce344d56d3f6520b1d0fef7701d3a4cc85f 811 Packages
+ 876f966ebdf18ecbaa8b2684b6f8ba19eec56f98 529 Packages.gz
+ e3f58f67d78c92028d7c8f4471e0285eceab90ff 592 Packages.bz2
 SHA256:
- 2a6c0364fd1f80eb74dd0408f46175bcd570d394ff27f9326e6cc73f3f396b70 828 Packages
- d4e545c36820f40e0fd47f2ca069ad256c13351abd7717fcd6c1d3464a431fbf 530 Packages.gz
- 1c4736e657b70aaf72d3e72006298f3cda06fd1d7a88243e78a6e2a28e8d8897 583 Packages.bz2
+ f26654129c1e72c9158b1192dfbcf4166207daf94eb28670059facc4ab89717f 811 Packages
+ 1c8733668965e1384a27abc40560b66ede237620630a3515ec6083e397649493 529 Packages.gz
+ 6f69f6ae842819d9c06f5833c65d620467b429f408b91cbd39b4a39fb574e33d 592 Packages.bz2
