@@ -5,7 +5,7 @@ Personal APT repository by widmonstertony for rootless jailbreak tweaks.
 Repository URL:
 
 ```text
-https://widmonstertony.github.io/TonyRepo/
+https://widmonstertony.github.io/tonyrepo/
 ```
 
 Add the URL to Sileo or Zebra and refresh sources. The first available package is
