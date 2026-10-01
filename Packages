@@ -16,6 +16,7 @@ SHA1: 1380844bcdd16fe0e81e313023fda894b17b8795
 SHA256: 87eeaaa95274ad018ba1261362daeb479077adb6b628e55064704e77bc41713c
 Depiction: https://widmonstertony.github.io/tonyrepo/depictions/thermallight.html
 Homepage: https://widmonstertony.github.io/tonyrepo/
+
 Package: com.tony.virtualmac.mediaexperiencefix
 Name: VirtualMac Audio Stability Fix
 Version: 1.0.1
