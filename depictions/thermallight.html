@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThermalLightControl</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+    body { margin: 0; padding: 18px; line-height: 1.5; }
+    .warning { border-left: 4px solid #e49b0f; padding-left: 12px; }
+  </style>
+</head>
+<body>
+  <h1>ThermalLightControl 3.3.0</h1>
+  <p>Prevents thermal brightness caps on iPadOS 16 rootless jailbreaks while preserving CPU/GPU
+    throttling, temperature monitoring, thermal warnings, watchdog, and emergency shutdown.</p>
+  <h2>What's new</h2>
+  <p>Version 3.3.0 uses the real user-requested brightness when sanitizing compact AABC display
+    updates, preventing the brightness cap from returning when a game becomes active.</p>
+  <h2>Compatibility</h2>
+  <p>Verified on iPadOS 16.1 with a rootless jailbreak and ElleKit. Published support is limited to
+    iOS/iPadOS 16.</p>
+  <h2>Controls</h2>
+  <p>The Settings app contains a bilingual on/off switch. The command-line utility supports
+    <code>on</code>, <code>off</code>, <code>status</code>, and <code>check</code>.</p>
+  <p class="warning"><strong>Warning:</strong> sustained high brightness at elevated temperatures
+    can increase power consumption, display wear, and overheating risk. Monitor device temperature
+    and disable the tweak if the device becomes unusually hot.</p>
+  <hr>
+  <h2>中文说明</h2>
+  <p>阻止 iPadOS 16 温控系统强制压低屏幕亮度，同时保留 CPU/GPU 降频、温度监控、过热提示、
+    watchdog 和紧急关机保护。3.3.0 会使用用户实际设定的亮度修正 AABC 显示更新，避免游戏启动后
+    亮度上限再次下降。设备异常发热时请关闭插件。</p>
+</body>
+</html>
