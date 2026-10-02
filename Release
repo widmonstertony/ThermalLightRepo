@@ -6,16 +6,16 @@ Codename: tonyrepo
 Architectures: iphoneos-arm64
 Components: main
 Description: Personal rootless jailbreak tweak repository by widmonstertony
-Date: Thu, 01 Oct 2026 17:03:33 UTC
+Date: Fri, 02 Oct 2026 03:04:08 UTC
 MD5Sum:
- aceee07e29fdc37223bf8bcd361867da 1638 Packages
- da26b5ca9aa02539faeb250e2bb60675 775 Packages.gz
- 5e28997c106fb91ea707d062cb1f2bd2 904 Packages.bz2
+ 46d3be966a378136a2b8b0e11b4ebd7a 1638 Packages
+ 51ecb8d039acf5b9ff3c0426444c554b 773 Packages.gz
+ 6d0879eba86d65d66da59c4f27df3c06 899 Packages.bz2
 SHA1:
- 98c8312d0479b6931f2d098bf31c5d4c59d3e3ea 1638 Packages
- 7c19ea4b9cac6cdd4823bbad5b20bb5416d8538f 775 Packages.gz
- 6dedcbc007883fb2d56ed5f5c1a888b69ee1b19a 904 Packages.bz2
+ 03460f2d50a071955465fb89b79c30d6e306b912 1638 Packages
+ 7db0d1bfee22a16eb26aed02a829f9ff2f368e0e 773 Packages.gz
+ cf9ee5a08c1889eeb3844d0cad4278ba88d17cb2 899 Packages.bz2
 SHA256:
- 6dcbcd8ce14c72c6853e3fe0edc49fbc4f9e1f30e2483a5c8d02e61817a8a566 1638 Packages
- 41e7eeeb365518c2b4e7c5480d0a6ccfec330d5e5cf19cef7594acb06a85684b 775 Packages.gz
- 20c65bc71ccb10d4a3fd51c0b823b61dd63bfb1154de9683f66a1292b5350407 904 Packages.bz2
+ 8c6769e54dbf160390e00f0291413dc68f6d7c78ba440f69c4d735da06235726 1638 Packages
+ b5eff6ac9c2eaca56a5456ea983e576f90760d9e7f7fecf878bd36074b68c57c 773 Packages.gz
+ e517e2d786e8fdfb9865537c97d20bf74f5c673b3a42e086f33fb0e899f24550 899 Packages.bz2
