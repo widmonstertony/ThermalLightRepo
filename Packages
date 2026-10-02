@@ -17,6 +17,24 @@ SHA256: 1b8193760209d8afd46413c1c98548674a1e8c070c78fc159b336f398e1dcf28
 Depiction: https://widmonstertony.github.io/tonyrepo/depictions/thermallight.html
 Homepage: https://widmonstertony.github.io/tonyrepo/
 
+Package: com.mac.virtual
+Name: Virtual Mac
+Version: 2:1.2.3+609.pause2
+Architecture: all
+Description: Modified Virtual Mac build with native in-memory pause and resume controls, including automatic capability refresh after VM startup.
+Maintainer: Virtual Mac
+Author: Virtual Mac contributors; pause/resume patch by Tony Repo
+Section: Utilities
+Depends: firmware (>= 14.5), firmware (<< 16.4), ellekit | org.coolstar.libhooker
+Priority: optional
+Filename: debs/com.mac.virtual_1.2.3+609.pause2_all.deb
+Size: 18671628
+MD5sum: edfbf061f1712f9c28565a1715afbe79
+SHA1: 64532ccb9ac4dbfec5615a3f112b23162dbea76a
+SHA256: 2f44145d89278ecb9761caef309fd3f7fda86621c0eb5893bc2cc33cddaa8931
+Depiction: https://widmonstertony.github.io/tonyrepo/depictions/virtualmac-pause.html
+Homepage: https://github.com/nfzerox/VirtualMacOniPad
+
 Package: com.tony.virtualmac.mediaexperiencefix
 Name: VirtualMac Audio Stability Fix
 Version: 1.0.1

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Virtual Mac Pause/Resume Build</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+    body { margin: 0; padding: 18px; line-height: 1.5; }
+    .warning { border-left: 4px solid #e49b0f; padding-left: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Virtual Mac 1.2.3+609.pause2</h1>
+  <p>A modified build of the upstream Virtual Mac on iPad project with native in-memory Pause and
+    Resume controls. The menu now refreshes after VM startup so Pause becomes available when the
+    virtualization framework reports that the running VM can be paused.</p>
+  <h2>Compatibility</h2>
+  <p>Requires an upstream-compatible M1 or M2 iPad running iPadOS 14.5–16.3.1 with a supported
+    rootless jailbreak. It intentionally cannot install on iPadOS 16.4 or later.</p>
+  <p class="warning"><strong>Before installing:</strong> save your work and completely shut down
+    Virtual Mac. Pause keeps VM state only in memory; it is not a disk snapshot and cannot survive
+    jetsam termination, userspace reboot, or device restart.</p>
+  <h2>Source and license</h2>
+  <p>Based on the MIT-licensed
+    <a href="https://github.com/nfzerox/VirtualMacOniPad">Virtual Mac on iPad</a> project. The
+    corresponding pause/resume source patch and upstream MIT license are included in Tony Repo.</p>
+  <hr>
+  <h2>中文说明</h2>
+  <p>这是 Virtual Mac on iPad 的修改版，加入原生内存暂停/恢复功能，并修复虚拟机启动后
+    “暂停”菜单一直呈灰色的问题。</p>
+  <p>仅支持上游兼容的 M1/M2 iPad、iPadOS 14.5–16.3.1 与受支持的 rootless 越狱环境。
+    安装前请保存工作并彻底关闭 Virtual Mac。暂停只保存在内存中，不是磁盘快照；进程被
+    Jetsam 清理、用户空间重启或设备重启后无法恢复。</p>
+</body>
+</html>

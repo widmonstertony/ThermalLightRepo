@@ -1,0 +1,675 @@
+diff --git a/VirtualMac/resources/Localizations/cs.lproj/Localizable.strings b/VirtualMac/resources/Localizations/cs.lproj/Localizable.strings
+index 0b206cc..d585085 100644
+--- a/VirtualMac/resources/Localizations/cs.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/cs.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Volitelné";
+ "Options" = "Volby";
+ "Out of Video Memory" = "Nedostatek videopaměti";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Lidé už více než deset let sní o spuštění macOS na iPadu. Dnes se tento sen stává skutečností. Začněte vytvořením virtuálního Macu.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Lidé už více než deset let sní o tom, že si vezmou macOS kamkoli s sebou. Dnes se tento sen stává skutečností. Začněte vytvořením virtuálního Macu.";
+ "Pixels Per Inch" = "Pixelů na palec";
+diff --git a/VirtualMac/resources/Localizations/da.lproj/Localizable.strings b/VirtualMac/resources/Localizations/da.lproj/Localizable.strings
+index 02082a3..8ce4383 100644
+--- a/VirtualMac/resources/Localizations/da.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/da.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Valgfrit";
+ "Options" = "Indstillinger";
+ "Out of Video Memory" = "Ikke mere videohukommelse";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "I mere end et årti har folk drømt om at køre macOS på iPad. I dag bliver drømmen til virkelighed. Opret en virtuel Mac for at komme i gang.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "I mere end et årti har folk drømt om at tage macOS med sig overalt. I dag bliver den drøm til virkelighed. Opret en virtuel Mac for at komme i gang.";
+ "Pixels Per Inch" = "Pixels pr. tomme";
+diff --git a/VirtualMac/resources/Localizations/de.lproj/Localizable.strings b/VirtualMac/resources/Localizations/de.lproj/Localizable.strings
+index 47d1d2e..01def9a 100644
+--- a/VirtualMac/resources/Localizations/de.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/de.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Optional";
+ "Options" = "Optionen";
+ "Out of Video Memory" = "Nicht genügend Grafikspeicher";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Seit mehr als einem Jahrzehnt träumen Menschen davon, macOS auf dem iPad auszuführen. Heute wird dieser Traum wahr. Erstellen Sie einen virtuellen Mac, um loszulegen.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Seit mehr als einem Jahrzehnt träumen Menschen davon, macOS überallhin mitzunehmen. Heute wird dieser Traum Wirklichkeit. Erstelle einen virtuellen Mac, um loszulegen.";
+ "Pixels Per Inch" = "Pixel pro Zoll";
+diff --git a/VirtualMac/resources/Localizations/el.lproj/Localizable.strings b/VirtualMac/resources/Localizations/el.lproj/Localizable.strings
+index 5744191..680de54 100644
+--- a/VirtualMac/resources/Localizations/el.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/el.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Προαιρετικά";
+ "Options" = "Επιλογές";
+ "Out of Video Memory" = "Η μνήμη γραφικών εξαντλήθηκε";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Για περισσότερο από μια δεκαετία, οι άνθρωποι ονειρεύονται να εκτελούν το macOS σε iPad. Σήμερα, αυτό το όνειρο γίνεται πραγματικότητα. Δημιουργήστε ένα εικονικό Mac για να ξεκινήσετε.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Για περισσότερο από μια δεκαετία, οι άνθρωποι ονειρεύονται να παίρνουν το macOS μαζί τους όπου κι αν πηγαίνουν. Σήμερα, αυτό το όνειρο γίνεται πραγματικότητα. Δημιουργήστε ένα εικονικό Mac για να ξεκινήσετε.";
+ "Pixels Per Inch" = "Pixel ανά ίντσα";
+diff --git a/VirtualMac/resources/Localizations/en.lproj/Localizable.strings b/VirtualMac/resources/Localizations/en.lproj/Localizable.strings
+index 4e7430d..4be010a 100644
+--- a/VirtualMac/resources/Localizations/en.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/en.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Optional";
+ "Options" = "Options";
+ "Out of Video Memory" = "Out of Video Memory";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started.";
+ "Pixels Per Inch" = "Pixels Per Inch";
+diff --git a/VirtualMac/resources/Localizations/es.lproj/Localizable.strings b/VirtualMac/resources/Localizations/es.lproj/Localizable.strings
+index 8f0b029..3a74ce1 100644
+--- a/VirtualMac/resources/Localizations/es.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/es.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opcional";
+ "Options" = "Opciones";
+ "Out of Video Memory" = "Memoria de vídeo agotada";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Durante más de una década, la gente ha soñado con ejecutar macOS en el iPad. Hoy ese sueño se hace realidad. Crea un Mac virtual para empezar.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Durante más de una década, la gente ha soñado con llevar macOS a todas partes. Hoy, ese sueño se hace realidad. Crea un Mac virtual para empezar.";
+ "Pixels Per Inch" = "Píxeles por pulgada";
+diff --git a/VirtualMac/resources/Localizations/es_419.lproj/Localizable.strings b/VirtualMac/resources/Localizations/es_419.lproj/Localizable.strings
+index 286673c..e93a2dd 100644
+--- a/VirtualMac/resources/Localizations/es_419.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/es_419.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opcional";
+ "Options" = "Opciones";
+ "Out of Video Memory" = "Memoria de video agotada";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Durante más de una década, las personas han soñado con ejecutar macOS en el iPad. Hoy ese sueño se hace realidad. Crea una Mac virtual para comenzar.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Durante más de una década, las personas han soñado con llevar macOS a todas partes. Hoy, ese sueño se hace realidad. Crea una Mac virtual para comenzar.";
+ "Pixels Per Inch" = "Píxeles por pulgada";
+diff --git a/VirtualMac/resources/Localizations/es_US.lproj/Localizable.strings b/VirtualMac/resources/Localizations/es_US.lproj/Localizable.strings
+index 3d2801e..311a430 100644
+--- a/VirtualMac/resources/Localizations/es_US.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/es_US.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opcional";
+ "Options" = "Opciones";
+ "Out of Video Memory" = "Memoria de video agotada";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Durante más de una década, las personas han soñado con ejecutar macOS en el iPad. Hoy ese sueño se hace realidad. Crea una Mac virtual para comenzar.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Durante más de una década, las personas han soñado con llevar macOS a todas partes. Hoy, ese sueño se hace realidad. Crea una Mac virtual para comenzar.";
+ "Pixels Per Inch" = "Píxeles por pulgada";
+diff --git a/VirtualMac/resources/Localizations/fi.lproj/Localizable.strings b/VirtualMac/resources/Localizations/fi.lproj/Localizable.strings
+index 7a0cb7a..e3168e7 100644
+--- a/VirtualMac/resources/Localizations/fi.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/fi.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Valinnainen";
+ "Options" = "Valinnat";
+ "Out of Video Memory" = "Näyttömuisti loppui";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ihmiset ovat haaveilleet macOS:n käyttämisestä iPadilla yli vuosikymmenen ajan. Tänään tuo unelma toteutuu. Aloita luomalla virtuaalinen Mac.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ihmiset ovat jo yli vuosikymmenen haaveilleet macOS:n kuljettamisesta mukana kaikkialle. Tänään unelmasta tulee totta. Aloita luomalla virtuaalinen Mac.";
+ "Pixels Per Inch" = "Pikseliä tuumalla";
+diff --git a/VirtualMac/resources/Localizations/fr.lproj/Localizable.strings b/VirtualMac/resources/Localizations/fr.lproj/Localizable.strings
+index 3e8adaf..3a0a8a3 100644
+--- a/VirtualMac/resources/Localizations/fr.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/fr.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Facultatif";
+ "Options" = "Options";
+ "Out of Video Memory" = "Mémoire vidéo épuisée";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Depuis plus d’une décennie, les gens rêvent d’exécuter macOS sur iPad. Aujourd’hui, ce rêve devient réalité. Créez un Mac virtuel pour commencer.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Depuis plus de dix ans, les utilisateurs rêvent d’emporter macOS partout avec eux. Aujourd’hui, ce rêve devient réalité. Créez un Mac virtuel pour commencer.";
+ "Pixels Per Inch" = "Pixels par pouce";
+diff --git a/VirtualMac/resources/Localizations/fr_CA.lproj/Localizable.strings b/VirtualMac/resources/Localizations/fr_CA.lproj/Localizable.strings
+index e0358a9..5899f1c 100644
+--- a/VirtualMac/resources/Localizations/fr_CA.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/fr_CA.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Facultatif";
+ "Options" = "Options";
+ "Out of Video Memory" = "Mémoire vidéo épuisée";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Depuis plus d’une décennie, les gens rêvent d’exécuter macOS sur iPad. Aujourd’hui, ce rêve devient réalité. Créez un Mac virtuel pour commencer.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Depuis plus de dix ans, les utilisateurs rêvent d’emporter macOS partout avec eux. Aujourd’hui, ce rêve devient réalité. Créez un Mac virtuel pour commencer.";
+ "Pixels Per Inch" = "Pixels par pouce";
+diff --git a/VirtualMac/resources/Localizations/he.lproj/Localizable.strings b/VirtualMac/resources/Localizations/he.lproj/Localizable.strings
+index 82e91f2..879559d 100644
+--- a/VirtualMac/resources/Localizations/he.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/he.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "אופציונלי";
+ "Options" = "אפשרויות";
+ "Out of Video Memory" = "זיכרון הווידאו אזל";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "כבר יותר מעשור אנשים חולמים להפעיל את macOS ב-iPad. היום החלום הזה מתגשם. כדי להתחיל, יש ליצור Mac וירטואלי.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "כבר יותר מעשור אנשים חולמים לקחת את macOS איתם לכל מקום. היום החלום הזה מתגשם. כדי להתחיל, צרו Mac וירטואלי.";
+ "Pixels Per Inch" = "פיקסלים לאינץ׳";
+diff --git a/VirtualMac/resources/Localizations/hi.lproj/Localizable.strings b/VirtualMac/resources/Localizations/hi.lproj/Localizable.strings
+index d3b4b0a..d588f6a 100644
+--- a/VirtualMac/resources/Localizations/hi.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/hi.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "वैकल्पिक";
+ "Options" = "विकल्प";
+ "Out of Video Memory" = "वीडियो मेमोरी समाप्त";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "लोग एक दशक से भी अधिक समय से iPad पर macOS चलाने का सपना देखते आए हैं। आज वह सपना सच हो रहा है। शुरू करने के लिए वर्चुअल Mac बनाएँ।";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "एक दशक से भी अधिक समय से लोग macOS को हर जगह अपने साथ ले जाने का सपना देखते आए हैं। आज वह सपना सच हो रहा है। शुरू करने के लिए एक वर्चुअल Mac बनाएँ।";
+ "Pixels Per Inch" = "प्रति इंच पिक्सेल";
+diff --git a/VirtualMac/resources/Localizations/hr.lproj/Localizable.strings b/VirtualMac/resources/Localizations/hr.lproj/Localizable.strings
+index cfdb2c9..226caa9 100644
+--- a/VirtualMac/resources/Localizations/hr.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/hr.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Neobavezno";
+ "Options" = "Opcije";
+ "Out of Video Memory" = "Nema videomemorije";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ljudi više od desetljeća sanjaju o pokretanju sustava macOS na iPadu. Danas taj san postaje stvarnost. Za početak izradite virtualni Mac.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ljudi već više od desetljeća sanjaju o tome da macOS ponesu kamo god krenu. Danas taj san postaje stvarnost. Za početak izradite virtualni Mac.";
+ "Pixels Per Inch" = "Pikseli po inču";
+diff --git a/VirtualMac/resources/Localizations/hu.lproj/Localizable.strings b/VirtualMac/resources/Localizations/hu.lproj/Localizable.strings
+index 6681b11..0d6b566 100644
+--- a/VirtualMac/resources/Localizations/hu.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/hu.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opcionális";
+ "Options" = "Beállítások";
+ "Out of Video Memory" = "Elfogyott a videomemória";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Az emberek több mint egy évtizede álmodnak arról, hogy macOS-t futtassanak iPaden. Ma ez az álom valóra válik. Első lépésként hozzon létre egy virtuális Macet.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Az emberek több mint egy évtizede álmodnak arról, hogy bárhová magukkal vihessék a macOS-t. Ma ez az álom valóra válik. Első lépésként hozzon létre egy virtuális Macet.";
+ "Pixels Per Inch" = "Képpont hüvelykenként";
+diff --git a/VirtualMac/resources/Localizations/id.lproj/Localizable.strings b/VirtualMac/resources/Localizations/id.lproj/Localizable.strings
+index c500248..54f708f 100644
+--- a/VirtualMac/resources/Localizations/id.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/id.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opsional";
+ "Options" = "Pilihan";
+ "Out of Video Memory" = "Memori Video Habis";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Selama lebih dari satu dekade, orang-orang bermimpi menjalankan macOS di iPad. Kini, mimpi itu menjadi kenyataan. Buat Mac virtual untuk memulai.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Selama lebih dari satu dekade, orang-orang bermimpi membawa macOS ke mana pun mereka pergi. Hari ini, impian itu menjadi kenyataan. Buat Mac virtual untuk memulai.";
+ "Pixels Per Inch" = "Piksel Per Inci";
+diff --git a/VirtualMac/resources/Localizations/it.lproj/Localizable.strings b/VirtualMac/resources/Localizations/it.lproj/Localizable.strings
+index 8933433..77ba061 100644
+--- a/VirtualMac/resources/Localizations/it.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/it.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Facoltativo";
+ "Options" = "Opzioni";
+ "Out of Video Memory" = "Memoria video esaurita";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Da più di un decennio si sogna di eseguire macOS su iPad. Oggi quel sogno diventa realtà. Crea un Mac virtuale per iniziare.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Da più di un decennio, le persone sognano di portare macOS ovunque vadano. Oggi quel sogno diventa realtà. Crea un Mac virtuale per iniziare.";
+ "Pixels Per Inch" = "Pixel per pollice";
+diff --git a/VirtualMac/resources/Localizations/ja.lproj/Localizable.strings b/VirtualMac/resources/Localizations/ja.lproj/Localizable.strings
+index a9f953b..a56e0bb 100644
+--- a/VirtualMac/resources/Localizations/ja.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/ja.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "任意";
+ "Options" = "オプション";
+ "Out of Video Memory" = "ビデオメモリ不足";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "10年以上にわたり、人々はiPadでmacOSを動かすことを夢見てきました。今日、その夢が実現します。仮想Macを作成して始めましょう。";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "10年以上もの間、macOSをどこへでも持ち歩くことが夢見られてきました。今日、その夢が現実になります。まずは仮想Macを作成しましょう。";
+ "Pixels Per Inch" = "1インチあたりのピクセル数";
+diff --git a/VirtualMac/resources/Localizations/ko.lproj/Localizable.strings b/VirtualMac/resources/Localizations/ko.lproj/Localizable.strings
+index 5acc996..a514b90 100644
+--- a/VirtualMac/resources/Localizations/ko.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/ko.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "선택 사항";
+ "Options" = "옵션";
+ "Out of Video Memory" = "비디오 메모리 부족";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "10년 넘게 사람들은 iPad에서 macOS를 실행하는 것을 꿈꿔 왔습니다. 오늘 그 꿈이 이루어집니다. 가상 Mac을 생성하여 시작하십시오.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "사람들은 10년 넘게 어디서나 macOS를 사용하는 꿈을 꾸어 왔습니다. 오늘, 그 꿈이 현실이 됩니다. 시작하려면 가상 Mac을 생성하세요.";
+ "Pixels Per Inch" = "인치당 픽셀";
+diff --git a/VirtualMac/resources/Localizations/ms.lproj/Localizable.strings b/VirtualMac/resources/Localizations/ms.lproj/Localizable.strings
+index f09ebe4..d9d3903 100644
+--- a/VirtualMac/resources/Localizations/ms.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/ms.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Pilihan";
+ "Options" = "Pilihan";
+ "Out of Video Memory" = "Memori Video Kehabisan";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Selama lebih sedekad, orang ramai mengimpikan macOS dijalankan pada iPad. Hari ini, impian itu menjadi kenyataan. Cipta Mac maya untuk bermula.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Selama lebih sedekad, orang ramai mengimpikan untuk membawa macOS ke mana sahaja mereka pergi. Hari ini, impian itu menjadi kenyataan. Cipta Mac maya untuk bermula.";
+ "Pixels Per Inch" = "Piksel Per Inci";
+diff --git a/VirtualMac/resources/Localizations/nl.lproj/Localizable.strings b/VirtualMac/resources/Localizations/nl.lproj/Localizable.strings
+index c5ea528..4300ad1 100644
+--- a/VirtualMac/resources/Localizations/nl.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/nl.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Optioneel";
+ "Options" = "Opties";
+ "Out of Video Memory" = "Videogeheugen vol";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Mensen dromen er al meer dan tien jaar van om macOS op de iPad te gebruiken. Vandaag wordt die droom werkelijkheid. Maak een virtuele Mac aan om aan de slag te gaan.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Al meer dan tien jaar dromen mensen ervan macOS overal mee naartoe te nemen. Vandaag wordt die droom werkelijkheid. Maak een virtuele Mac aan om te beginnen.";
+ "Pixels Per Inch" = "Pixels per inch";
+diff --git a/VirtualMac/resources/Localizations/no.lproj/Localizable.strings b/VirtualMac/resources/Localizations/no.lproj/Localizable.strings
+index dfafa53..8f9512e 100644
+--- a/VirtualMac/resources/Localizations/no.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/no.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Valgfritt";
+ "Options" = "Valg";
+ "Out of Video Memory" = "Tomt for videominne";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "I mer enn et tiår har folk drømt om å kjøre macOS på iPad. I dag blir drømmen virkelighet. Opprett en virtuell Mac for å komme i gang.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "I mer enn et tiår har folk drømt om å ta med seg macOS overalt. I dag blir den drømmen virkelighet. Opprett en virtuell Mac for å komme i gang.";
+ "Pixels Per Inch" = "Piksler per tomme";
+diff --git a/VirtualMac/resources/Localizations/pl.lproj/Localizable.strings b/VirtualMac/resources/Localizations/pl.lproj/Localizable.strings
+index 2931f7b..6da0499 100644
+--- a/VirtualMac/resources/Localizations/pl.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/pl.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opcjonalnie";
+ "Options" = "Opcje";
+ "Out of Video Memory" = "Brak pamięci wideo";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Od ponad dekady ludzie marzą o uruchomieniu macOS na iPadzie. Dziś to marzenie się spełnia. Aby rozpocząć, utwórz wirtualnego Maca.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Od ponad dekady ludzie marzą o tym, by zabierać macOS wszędzie ze sobą. Dziś to marzenie staje się rzeczywistością. Aby rozpocząć, utwórz wirtualnego Maca.";
+ "Pixels Per Inch" = "Piksele na cal";
+diff --git a/VirtualMac/resources/Localizations/pt.lproj/Localizable.strings b/VirtualMac/resources/Localizations/pt.lproj/Localizable.strings
+index 1dd56ab..c0e799a 100644
+--- a/VirtualMac/resources/Localizations/pt.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/pt.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opcional";
+ "Options" = "Opções";
+ "Out of Video Memory" = "Memória de vídeo esgotada";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Há mais de uma década, as pessoas sonham em executar o macOS no iPad. Hoje, esse sonho se torna realidade. Crie um Mac virtual para começar.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Há mais de uma década, as pessoas sonham em levar o macOS aonde quer que vão. Hoje, esse sonho se torna realidade. Crie um Mac virtual para começar.";
+ "Pixels Per Inch" = "Pixels por polegada";
+diff --git a/VirtualMac/resources/Localizations/pt_PT.lproj/Localizable.strings b/VirtualMac/resources/Localizations/pt_PT.lproj/Localizable.strings
+index 945121d..651ef8d 100644
+--- a/VirtualMac/resources/Localizations/pt_PT.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/pt_PT.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opcional";
+ "Options" = "Opções";
+ "Out of Video Memory" = "Memória de vídeo esgotada";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Há mais de uma década que as pessoas sonham executar o macOS no iPad. Hoje, esse sonho torna-se realidade. Crie um Mac virtual para começar.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Há mais de uma década que as pessoas sonham em levar o macOS para onde quer que vão. Hoje, esse sonho torna-se realidade. Crie um Mac virtual para começar.";
+ "Pixels Per Inch" = "Pixels por polegada";
+diff --git a/VirtualMac/resources/Localizations/ro.lproj/Localizable.strings b/VirtualMac/resources/Localizations/ro.lproj/Localizable.strings
+index 5aca352..bd55cac 100644
+--- a/VirtualMac/resources/Localizations/ro.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/ro.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Opțional";
+ "Options" = "Opzioni";
+ "Out of Video Memory" = "Memorie video epuizată";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "De mai bine de un deceniu, oamenii visează să ruleze macOS pe iPad. Astăzi, acel vis devine realitate. Creați un Mac virtual pentru a începe.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "De mai bine de un deceniu, oamenii visează să ia macOS cu ei oriunde merg. Astăzi, acel vis devine realitate. Creați un Mac virtual pentru a începe.";
+ "Pixels Per Inch" = "Pixeli per inch";
+diff --git a/VirtualMac/resources/Localizations/ru.lproj/Localizable.strings b/VirtualMac/resources/Localizations/ru.lproj/Localizable.strings
+index 31c1a39..c68b1e1 100644
+--- a/VirtualMac/resources/Localizations/ru.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/ru.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Необязательно";
+ "Options" = "Параметры";
+ "Out of Video Memory" = "Видеопамять исчерпана";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Более десяти лет люди мечтали запустить macOS на iPad. Сегодня эта мечта сбывается. Чтобы начать, создайте виртуальный Mac.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Более десяти лет люди мечтали брать macOS с собой куда угодно. Сегодня эта мечта становится реальностью. Чтобы начать, создайте виртуальный Mac.";
+ "Pixels Per Inch" = "Пикселей на дюйм";
+diff --git a/VirtualMac/resources/Localizations/sk.lproj/Localizable.strings b/VirtualMac/resources/Localizations/sk.lproj/Localizable.strings
+index 20687b7..522c7c9 100644
+--- a/VirtualMac/resources/Localizations/sk.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/sk.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Voliteľné";
+ "Options" = "Volby";
+ "Out of Video Memory" = "Nedostatok videopamäte";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ľudia už viac ako desať rokov snívajú o spustení macOS na iPade. Dnes sa tento sen stáva skutočnosťou. Začnite vytvorením virtuálneho Macu.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ľudia už viac ako desaťročie snívajú o tom, že si vezmú macOS kamkoľvek so sebou. Dnes sa tento sen stáva skutočnosťou. Začnite vytvorením virtuálneho Macu.";
+ "Pixels Per Inch" = "Pixely na palec";
+diff --git a/VirtualMac/resources/Localizations/sl.lproj/Localizable.strings b/VirtualMac/resources/Localizations/sl.lproj/Localizable.strings
+index fc629d6..3061413 100644
+--- a/VirtualMac/resources/Localizations/sl.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/sl.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Izbirno";
+ "Options" = "Možnosti";
+ "Out of Video Memory" = "Zmanjkalo je videopomnilnika";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ljudje že več kot desetletje sanjajo o poganjanju sistema macOS na iPadu. Danes se te sanje uresničujejo. Za začetek ustvari navidezni Mac.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Ljudje že več kot desetletje sanjajo, da bi macOS vzeli s seboj kamor koli. Danes te sanje postajajo resničnost. Za začetek ustvarite virtualni Mac.";
+ "Pixels Per Inch" = "Slikovne pike na palec";
+diff --git a/VirtualMac/resources/Localizations/sv.lproj/Localizable.strings b/VirtualMac/resources/Localizations/sv.lproj/Localizable.strings
+index 070f63c..a7660b3 100644
+--- a/VirtualMac/resources/Localizations/sv.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/sv.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Valfritt";
+ "Options" = "Alternativ";
+ "Out of Video Memory" = "Slut på grafikminne";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "I mer än ett decennium har människor drömt om att köra macOS på iPad. I dag blir drömmen verklighet. Skapa en virtuell Mac för att komma igång.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "I mer än ett decennium har människor drömt om att ta med sig macOS vart de än går. I dag blir den drömmen verklighet. Skapa en virtuell Mac för att komma igång.";
+ "Pixels Per Inch" = "Pixlar per tum";
+diff --git a/VirtualMac/resources/Localizations/th.lproj/Localizable.strings b/VirtualMac/resources/Localizations/th.lproj/Localizable.strings
+index cad7804..034cae6 100644
+--- a/VirtualMac/resources/Localizations/th.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/th.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "ไม่บังคับ";
+ "Options" = "ตัวเลือก";
+ "Out of Video Memory" = "หน่วยความจำวิดีโอไม่เพียงพอ";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "ผู้คนใฝ่ฝันที่จะใช้งาน macOS บน iPad มานานกว่าทศวรรษ วันนี้ความฝันนั้นเป็นจริง สร้าง Mac เสมือนเพื่อเริ่มต้นใช้งาน";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "ผู้คนใฝ่ฝันที่จะพกพา macOS ไปได้ทุกที่มานานกว่าทศวรรษ วันนี้ความฝันนั้นเป็นจริงแล้ว สร้าง Mac เสมือนเพื่อเริ่มต้นใช้งาน";
+ "Pixels Per Inch" = "พิกเซลต่อนิ้ว";
+diff --git a/VirtualMac/resources/Localizations/tr.lproj/Localizable.strings b/VirtualMac/resources/Localizations/tr.lproj/Localizable.strings
+index 5ad4264..40eda06 100644
+--- a/VirtualMac/resources/Localizations/tr.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/tr.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "İsteğe bağlı";
+ "Options" = "Seçenekler";
+ "Out of Video Memory" = "Video Belleği Tükendi";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "İnsanlar on yılı aşkın süredir iPad’de macOS çalıştırmanın hayalini kuruyor. Bugün bu hayal gerçek oluyor. Başlamak için bir sanal Mac oluşturun.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "İnsanlar on yılı aşkın süredir macOS’i gittikleri her yere götürmenin hayalini kuruyor. Bugün bu hayal gerçeğe dönüşüyor. Başlamak için sanal bir Mac oluşturun.";
+ "Pixels Per Inch" = "İnç Başına Piksel";
+diff --git a/VirtualMac/resources/Localizations/uk.lproj/Localizable.strings b/VirtualMac/resources/Localizations/uk.lproj/Localizable.strings
+index 0fd1d88..1f0b0cd 100644
+--- a/VirtualMac/resources/Localizations/uk.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/uk.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Необов’язково";
+ "Options" = "Параметри";
+ "Out of Video Memory" = "Відеопам’ять вичерпано";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Понад десять років люди мріяли запустити macOS на iPad. Сьогодні ця мрія збувається. Щоб почати, створіть віртуальний Mac.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Понад десять років люди мріяли брати macOS із собою будь-куди. Сьогодні ця мрія стає реальністю. Щоб почати, створіть віртуальний Mac.";
+ "Pixels Per Inch" = "Пикселей на дюйм";
+diff --git a/VirtualMac/resources/Localizations/vi.lproj/Localizable.strings b/VirtualMac/resources/Localizations/vi.lproj/Localizable.strings
+index 138e963..bdbfbbe 100644
+--- a/VirtualMac/resources/Localizations/vi.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/vi.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "Không bắt buộc";
+ "Options" = "Tùy chọn";
+ "Out of Video Memory" = "Đã hết bộ nhớ video";
++"Pause" = "Pause";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Trong hơn một thập kỷ, mọi người đã mơ ước chạy macOS trên iPad. Hôm nay, giấc mơ đó đã thành hiện thực. Hãy tạo một Máy Mac ảo để bắt đầu.";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "Trong hơn một thập kỷ, mọi người đã mơ ước có thể mang macOS theo mình đến bất cứ đâu. Hôm nay, giấc mơ đó trở thành hiện thực. Hãy tạo một máy Mac ảo để bắt đầu.";
+ "Pixels Per Inch" = "Pixel trên mỗi inch";
+diff --git a/VirtualMac/resources/Localizations/zh_CN.lproj/Localizable.strings b/VirtualMac/resources/Localizations/zh_CN.lproj/Localizable.strings
+index e2db819..a3fff2a 100644
+--- a/VirtualMac/resources/Localizations/zh_CN.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/zh_CN.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "可选";
+ "Options" = "选项";
+ "Out of Video Memory" = "显存不足";
++"Pause" = "暂停";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "十余年来，人们一直梦想着在iPad上运行macOS。今⁠天，这个梦想终于照进现实。创建虚拟Mac以开始。";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "十余年来，人们一直梦想着随时随地使用macOS。今天，这个梦想终于照进现实。创建虚拟Mac以开始。";
+ "Pixels Per Inch" = "每英寸像素数";
+diff --git a/VirtualMac/resources/Localizations/zh_HK.lproj/Localizable.strings b/VirtualMac/resources/Localizations/zh_HK.lproj/Localizable.strings
+index c605878..fdd5126 100644
+--- a/VirtualMac/resources/Localizations/zh_HK.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/zh_HK.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "可選";
+ "Options" = "選項";
+ "Out of Video Memory" = "顯示記憶體不足";
++"Pause" = "暫停";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "十多年來，人們一直夢想在iPad上執行macOS。今⁠天，這個夢想終於成真。建立虛擬Mac以開始使用。";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "十多年來，人們一直夢想可以隨時隨地使用macOS。今天，這個夢想終於成真。建立虛擬Mac以開始。";
+ "Pixels Per Inch" = "每英寸像素數";
+diff --git a/VirtualMac/resources/Localizations/zh_TW.lproj/Localizable.strings b/VirtualMac/resources/Localizations/zh_TW.lproj/Localizable.strings
+index aaa33e1..dbf500f 100644
+--- a/VirtualMac/resources/Localizations/zh_TW.lproj/Localizable.strings
++++ b/VirtualMac/resources/Localizations/zh_TW.lproj/Localizable.strings
+@@ -176,6 +176,7 @@
+ "Optional" = "可選";
+ "Options" = "選項";
+ "Out of Video Memory" = "視訊記憶體不足";
++"Pause" = "暫停";
+ "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "十多年來，人們一直夢想在iPad上執行macOS。今⁠天，這個夢想終於成真。建立虛擬Mac以開始使用。";
+ "People have dreamed of taking macOS wherever they go for more than a decade. Today, that dream comes true. Create a Virtual Mac to get started." = "十多年來，人們一直夢想能隨時隨地使用macOS。今天，這個夢想終於成真。建立虛擬Mac以開始。";
+ "Pixels Per Inch" = "每英寸畫素數";
+diff --git a/VirtualMac/vz/host/VirtualMacApp.m b/VirtualMac/vz/host/VirtualMacApp.m
+index 1cf58b6..b42a69e 100644
+--- a/VirtualMac/vz/host/VirtualMacApp.m
++++ b/VirtualMac/vz/host/VirtualMacApp.m
+@@ -83,6 +83,8 @@ static void setVMJetsamProtection(BOOL active)
+
+ static id gVirtualMachine;
+ static id gVirtualMachineDelegate;
++static BOOL gVirtualMachinePaused;
++static BOOL gVirtualMachinePauseOperationPending;
+ static UIView *gFramebufferView;
+ static id gFramebuffer;
+ static id gKeyboard;
+@@ -615,7 +617,8 @@ static CGPoint clampPointerLocation(CGPoint point, CGRect bounds) {
+
+ static void sendPointer(CGPoint point, CGRect bounds,
+                         NSUInteger pressedButtons) {
+-    if (!gPointingDevice || bounds.size.width <= 0 ||
++    if (gVirtualMachinePaused || gVirtualMachinePauseOperationPending ||
++        !gPointingDevice || bounds.size.width <= 0 ||
+         bounds.size.height <= 0)
+         return;
+     // gInputView covers the visible guest viewport normally, but expands to
+@@ -676,7 +679,8 @@ static void sendIndirectPointerLocation(CGPoint hostPoint, CGRect bounds) {
+ }
+
+ static void sendMagnification(double magnification, NSUInteger phase) {
+-    if (!gPointingDevice)
++    if (gVirtualMachinePaused || gVirtualMachinePauseOperationPending ||
++        !gPointingDevice)
+         return;
+     id event = ((id(*)(id, SEL, double, NSUInteger))objc_msgSend)(
+         m0(CLS("_VZMagnifyEvent"), "alloc"),
+@@ -692,7 +696,8 @@ static void sendMagnification(double magnification, NSUInteger phase) {
+ }
+
+ static void sendRotation(double rotation, NSUInteger phase) {
+-    if (!gPointingDevice)
++    if (gVirtualMachinePaused || gVirtualMachinePauseOperationPending ||
++        !gPointingDevice)
+         return;
+     id event = ((id(*)(id, SEL, double, NSUInteger))objc_msgSend)(
+         m0(CLS("_VZRotationEvent"), "alloc"),
+@@ -708,7 +713,8 @@ static void sendRotation(double rotation, NSUInteger phase) {
+ }
+
+ static void sendSmartMagnification(void) {
+-    if (!gPointingDevice)
++    if (gVirtualMachinePaused || gVirtualMachinePauseOperationPending ||
++        !gPointingDevice)
+         return;
+     id event = NEW("_VZSmartMagnifyEvent");
+     if (!event)
+@@ -780,7 +786,8 @@ static void sendScrollWheelEvent(CGVector rawDelta, CGVector acceleratedDelta,
+                                  NSUInteger deviceCategory,
+                                  NSUInteger phase,
+                                  NSUInteger momentumPhase) {
+-    if (!gPointingDevice)
++    if (gVirtualMachinePaused || gVirtualMachinePauseOperationPending ||
++        !gPointingDevice)
+         return;
+     UIScreen *inputScreen = gInputView.window.screen;
+     BOOL externalStageManager = inputScreen &&
+@@ -1006,6 +1013,8 @@ static void queueScrollWheel(CGVector rawDelta, CGVector acceleratedDelta,
+                              BOOL directionInvertedFromDevice,
+                              NSUInteger deviceCategory,
+                              NSUInteger phase) {
++    if (gVirtualMachinePaused || gVirtualMachinePauseOperationPending)
++        return;
+     if (gDebugLogging)
+         gScrollReceivedEventCount++;
+     BOOL eventHasDelta = rawDelta.dx != 0 || rawDelta.dy != 0 ||
+@@ -1434,6 +1443,8 @@ static NSInteger macVirtualKeyCode(UIKeyboardHIDUsage usage) {
+ }
+
+ static void sendKey(UIKeyboardHIDUsage usage, BOOL pressed) {
++    if (gVirtualMachinePaused || gVirtualMachinePauseOperationPending)
++        return;
+     if (usage == 0xe1) {
+         if (pressed) gShiftPressedMask |= 1;
+         else gShiftPressedMask &= ~1;
+@@ -3143,6 +3154,7 @@ - (void)activateVMDisplay:(BOOL)active;
+ - (void)updateHUDVisibility;
+ - (void)updateHUDPosition;
+ - (UIMenu *)hudMenu;
++- (void)toggleVirtualMachinePause;
+ - (void)confirmForceShutdown;
+ @end
+
+@@ -3370,6 +3382,23 @@ - (UIMenu *)hudMenu
+         extToggle.state = extEnabled ? UIMenuElementStateOn : UIMenuElementStateOff;
+         [machineActions addObject:extToggle];
+     }
++    BOOL canTogglePause = NO;
++    if (gVirtualMachine && !gVirtualMachinePauseOperationPending) {
++        SEL capability = gVirtualMachinePaused ? S("canResume") : S("canPause");
++        canTogglePause = [gVirtualMachine respondsToSelector:capability] &&
++            ((BOOL(*)(id, SEL))objc_msgSend)(gVirtualMachine, capability);
++    }
++    UIAction *pause = [UIAction
++        actionWithTitle:gVirtualMachinePaused ? VZL(@"Resume") : VZL(@"Pause")
++        image:[UIImage systemImageNamed:gVirtualMachinePaused
++            ? @"play.fill" : @"pause.fill"]
++        identifier:nil handler:^(UIAction *action) {
++        (void)action;
++        [self toggleVirtualMachinePause];
++    }];
++    if (!canTogglePause)
++        pause.attributes = UIMenuElementAttributesDisabled;
++    [machineActions addObject:pause];
+     UIAction *shutdown = [UIAction actionWithTitle:VZL(@"Force Shut Down")
+         image:[UIImage systemImageNamed:@"power"] identifier:nil
+         handler:^(UIAction *action) { (void)action; [self confirmForceShutdown]; }];
+@@ -3402,6 +3431,79 @@ - (UIMenu *)hudMenu
+     return [UIMenu menuWithTitle:@"" children:sections];
+ }
+
++- (void)toggleVirtualMachinePause
++{
++    if (!gVirtualMachine || gVirtualMachinePauseOperationPending)
++        return;
++
++    BOOL resuming = gVirtualMachinePaused;
++    SEL capability = resuming ? S("canResume") : S("canPause");
++    SEL operation = resuming ? S("resumeWithCompletionHandler:")
++                             : S("pauseWithCompletionHandler:");
++    if (![gVirtualMachine respondsToSelector:capability] ||
++        ![gVirtualMachine respondsToSelector:operation] ||
++        !((BOOL(*)(id, SEL))objc_msgSend)(gVirtualMachine, capability)) {
++        [(VZHUDView *)gHUDView refreshMenu];
++        return;
++    }
++
++    if (!resuming) {
++        // Release held buttons before input is gated so a paused guest never
++        // resumes with a stuck mouse button, modifier, or scroll gesture.
++        resetPointerSession(YES);
++        gShiftPressedMask = 0;
++        [gInputView resignFirstResponder];
++    }
++    gVirtualMachinePauseOperationPending = YES;
++    gInputView.userInteractionEnabled = NO;
++    resetScrollCoalescing();
++    [(VZHUDView *)gHUDView refreshMenu];
++    NSString *actionTitle = resuming ? VZL(@"Resume") : VZL(@"Pause");
++    setStatus(actionTitle);
++
++    id virtualMachine = gVirtualMachine;
++    void (^completion)(NSError *) = ^(NSError *error) {
++        dispatch_async(dispatch_get_main_queue(), ^{
++            // A stop may complete while a pause/resume request is in flight.
++            // Do not apply that stale result to a newly launched Virtual Mac.
++            if (gVirtualMachine != virtualMachine)
++                return;
++            gVirtualMachinePauseOperationPending = NO;
++            if (error) {
++                if (!resuming) {
++                    gVirtualMachinePaused = NO;
++                    gInputView.userInteractionEnabled = YES;
++                    if (GCKeyboard.coalescedKeyboard ||
++                        gSoftwareKeyboardRequested)
++                        [gInputView becomeFirstResponder];
++                }
++                UIAlertController *alert = [UIAlertController
++                    alertControllerWithTitle:actionTitle
++                    message:error.localizedDescription
++                    preferredStyle:UIAlertControllerStyleAlert];
++                [alert addAction:[UIAlertAction actionWithTitle:VZL(@"OK")
++                    style:UIAlertActionStyleDefault handler:nil]];
++                [self presentViewController:alert animated:YES completion:nil];
++            } else if (resuming) {
++                gVirtualMachinePaused = NO;
++                gInputView.userInteractionEnabled = YES;
++                resetPointerSession(NO);
++                if (GCKeyboard.coalescedKeyboard ||
++                    gSoftwareKeyboardRequested)
++                    [gInputView becomeFirstResponder];
++                setStatus(VZL(@"Virtual Mac running — native PVG framebuffer attached"));
++            } else {
++                gVirtualMachinePaused = YES;
++                setStatus([NSString stringWithFormat:@"%@ — %@",
++                    VZL(@"Virtual Mac"), VZL(@"Pause")]);
++            }
++            [(VZHUDView *)gHUDView refreshMenu];
++        });
++    };
++    ((void(*)(id, SEL, id))objc_msgSend)(
++        virtualMachine, operation, completion);
++}
++
+ - (void)confirmForceShutdown
+ {
+     if (!gVirtualMachine)
+@@ -4137,6 +4239,8 @@ - (void)guestDidStopVirtualMachine:(id)virtualMachine
+ - (void)finishVMAndShowLibraryWithError:(NSError *)error
+ {
+     setVMJetsamProtection(NO);
++    gVirtualMachinePaused = NO;
++    gVirtualMachinePauseOperationPending = NO;
+     gSoftwareKeyboardRequested = NO;
+     pencilVsockReset();
+     disconnectExternalDisplay();
+@@ -4162,6 +4266,7 @@ - (void)finishVMAndShowLibraryWithError:(NSError *)error
+     gCursorView.image = nil;
+     gCursorView.hidden = YES;
+     gInputView.hidden = YES;
++    gInputView.userInteractionEnabled = YES;
+     gTouchScrollRecognizer = nil;
+     gPinchRecognizer = nil;
+     gRotationRecognizer = nil;
+@@ -5127,6 +5232,11 @@ static void activateFramebuffer(void) {
+         logFramebufferState(view, framebuffer, "after-2s");
+     });
+     setStatus(VZL(@"Virtual Mac running — native PVG framebuffer attached"));
++    // The HUD menu is initially created before the VM enters the running
++    // state, when VZVirtualMachine.canPause is necessarily false. Rebuild it
++    // after start so Pause reflects the live capability instead of remaining
++    // disabled for the entire session.
++    [(VZHUDView *)gHUDView refreshMenu];
+     if (externalDisplayEnabled())
+         connectExternalDisplay();
+ }
+@@ -5159,6 +5269,8 @@ static void startVirtualMachineWorker(UIView *container, id delegate,
+                                       NSString *bundlePath,
+                                       NSDictionary *options) {
+     setVMJetsamProtection(YES);
++    gVirtualMachinePaused = NO;
++    gVirtualMachinePauseOperationPending = NO;
+     gShiftPressedMask = 0;
+     pencilVsockReset();
+     VZGuestToolsReset();

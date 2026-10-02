@@ -20,6 +20,7 @@ Add the URL to Sileo or Zebra and refresh sources.
 
 - **ThermalLightControl 3.5.2** — blocks the direct `CBDisplayModuleiOS` `DisplayBrightness` path that can reduce SDR output to 153.448 nit in games such as Honkai: Star Rail, while preserving CPU/GPU throttling, temperature monitoring, warnings, watchdog, and emergency shutdown.
 - **VirtualMac Audio Stability Fix 1.0.1** — preserves VirtualMac microphone and speaker support while preventing the iPadOS 16.1 MediaExperience/Now Playing teardown race.
+- **Virtual Mac 1.2.3+609.pause2** — a modified build of the upstream MIT-licensed project with native in-memory Pause/Resume controls and a startup menu-refresh fix. Supported only on the upstream-compatible M1/M2 iPads running iPadOS 14.5–16.3.1.
 
 ## NewT66y 2.3.7 local package builder
 
@@ -61,6 +62,7 @@ Sileo 或 Zebra 后刷新软件源即可。
 
 - **ThermalLightControl 3.5.2**：拦截《崩坏：星穹铁道》等游戏会触发的 `CBDisplayModuleiOS` `DisplayBrightness` 直达路径，防止 SDR 输出被压到 153.448 nit，同时保留 CPU/GPU 降频、温度监控、过热警告、watchdog 和紧急关机保护。
 - **VirtualMac Audio Stability Fix 1.0.1**：保留 VirtualMac 的麦克风与扬声器功能，并修复 iPadOS 16.1 上 MediaExperience/正在播放模块销毁时的竞态崩溃。
+- **Virtual Mac 1.2.3+609.pause2**：基于上游 MIT 开源项目的修改版，加入原生内存暂停/恢复以及虚拟机启动后自动刷新菜单的修复。仅支持上游兼容的 M1/M2 iPad 与 iPadOS 14.5–16.3.1。
 
 ## NewT66y 2.3.7 本地打包工具
 
