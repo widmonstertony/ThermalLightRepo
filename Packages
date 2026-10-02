@@ -1,6 +1,6 @@
 Package: com.codex.thermalcontrol
 Name: ThermalLightControl
-Version: 3.5.1
+Version: 3.5.2
 Architecture: iphoneos-arm64
 Description: Prevents thermal brightness caps on iPadOS 16 while preserving CPU/GPU throttling, temperature monitoring, warnings, watchdog, and emergency shutdown.
 Maintainer: widmonstertony
@@ -9,11 +9,11 @@ Section: Tweaks
 Depends: firmware (>= 16.0), firmware (<< 17.0), ellekit (>= 1.2), preferenceloader
 Priority: optional
 Rootless: true
-Filename: debs/com.codex.thermalcontrol_3.5.1_iphoneos-arm64.deb
-Size: 39530
-MD5sum: 5c9d0544bd250be71f668a183cc5bd60
-SHA1: b9aad4810d04e4d181a4f44a00c741cf8bd319c9
-SHA256: 60cd3bc709fc5b8b5d3da43488eacba0f4d211705d7a1beebc3ceb7b1ad32102
+Filename: debs/com.codex.thermalcontrol_3.5.2_iphoneos-arm64.deb
+Size: 40068
+MD5sum: d61b7b90f0f2d92c3ee751a57f09bf4c
+SHA1: 3279ee41790abd632bc76302a56b281efe446f33
+SHA256: 1b8193760209d8afd46413c1c98548674a1e8c070c78fc159b336f398e1dcf28
 Depiction: https://widmonstertony.github.io/tonyrepo/depictions/thermallight.html
 Homepage: https://widmonstertony.github.io/tonyrepo/
 

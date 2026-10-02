@@ -11,13 +11,14 @@
   </style>
 </head>
 <body>
-  <h1>ThermalLightControl 3.5.1</h1>
+  <h1>ThermalLightControl 3.5.2</h1>
   <p>Prevents thermal brightness caps on iPadOS 16 rootless jailbreaks while preserving CPU/GPU
     throttling, temperature monitoring, thermal warnings, watchdog, and emergency shutdown.</p>
   <h2>What's new</h2>
-  <p>Version 3.5.1 fixes an ARC object-lifetime bug that could over-release the CoreBrightness
-    controller during repeated EDR/RTPLC updates. It also bars the install-time backboardd PID and
-    permits only one validated attempt on the next clean process.</p>
+  <p>Version 3.5.2 intercepts the direct <code>CBDisplayModuleiOS</code>
+    <code>DisplayBrightness</code> notification path that can reduce SDR output from 499.8 to
+    153.448 nit in games such as Honkai: Star Rail, even when the previously covered limiters
+    remain normal. The versioned live handshake now requires this path.</p>
   <h2>Compatibility</h2>
   <p>Verified on iPadOS 16.1 with a rootless jailbreak and ElleKit. Published support is limited to
     iOS/iPadOS 16.</p>
@@ -30,8 +31,9 @@
   <hr>
   <h2>中文说明</h2>
   <p>阻止 iPadOS 16 温控系统强制压低屏幕亮度，同时保留 CPU/GPU 降频、温度监控、过热提示、
-    watchdog 和紧急关机保护。3.5.1 修复反复更新 EDR/RTPLC 时可能过度释放 CoreBrightness
-    控制器的问题；同时禁止向安装时的 backboardd PID 注入，仅允许在下一个干净进程中进行一次验证尝试。
+    watchdog 和紧急关机保护。3.5.2 新增拦截 <code>CBDisplayModuleiOS</code> 的
+    <code>DisplayBrightness</code> 直达通知路径，修复《崩坏：星穹铁道》等游戏会把 SDR 输出
+    从 499.8 压到 153.448 nit 的问题，并将该入口纳入版本化实时握手。
     设备异常发热时请关闭插件。</p>
 </body>
 </html>
