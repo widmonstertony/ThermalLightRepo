@@ -15,6 +15,26 @@ Add the URL to Sileo or Zebra and refresh sources.
 - **ThermalLightControl 3.3.0** — prevents the iPadOS 16 thermal brightness cap while preserving CPU/GPU throttling, temperature monitoring, warnings, watchdog, and emergency shutdown.
 - **VirtualMac Audio Stability Fix 1.0.1** — preserves VirtualMac microphone and speaker support while preventing the iPadOS 16.1 MediaExperience/Now Playing teardown race.
 
+## NewT66y 2.3.7 local package builder
+
+This repository does **not** redistribute NewT66y, its IPA, app bundle, icon, or a
+package containing the app. The public builder only repackages a copy that the
+user has lawfully obtained into a rootless jailbreak package on the user's Mac.
+
+1. Download or clone this repository on a Mac.
+2. Put your own `1024app_ios_2.3.7.ipa` beside
+   `tools/newt66y-local-builder/Build-NewT66y.command`, or drag the IPA onto that
+   command file in Terminal.
+3. Run `Build-NewT66y.command`.
+4. Transfer the generated `.deb` from the local `output` folder to your own
+   iOS/iPadOS 16 rootless jailbreak device and install it locally with Sileo,
+   Zebra, Filza, or `dpkg`.
+
+Full instructions and the legal/provenance notice are in
+[`tools/newt66y-local-builder/README.md`](tools/newt66y-local-builder/README.md).
+The generated package is intentionally ignored by Git and must not be committed
+to this public repository.
+
 Published compatibility is limited to iOS/iPadOS 16 rootless jailbreaks.
 
 > Sustained high brightness at elevated temperatures increases power consumption,
@@ -29,5 +49,16 @@ Published compatibility is limited to iOS/iPadOS 16 rootless jailbreaks.
 
 - **ThermalLightControl 3.3.0**：阻止 iPadOS 16 温控系统强制降低屏幕亮度，同时保留 CPU/GPU 降频、温度监控、过热警告、watchdog 和紧急关机保护。
 - **VirtualMac Audio Stability Fix 1.0.1**：保留 VirtualMac 的麦克风与扬声器功能，并修复 iPadOS 16.1 上 MediaExperience/正在播放模块销毁时的竞态崩溃。
+
+## NewT66y 2.3.7 本地打包工具
+
+本仓库**不提供或再分发**小草/NewT66y 的 IPA、App、图标或包含 App 的安装包。
+公开内容只有原创打包脚本；用户必须在自己的 Mac 上提供自己合法取得的
+`1024app_ios_2.3.7.ipa`，脚本才会在本地生成 rootless `.deb`。
+
+请阅读
+[`tools/newt66y-local-builder/README.md`](tools/newt66y-local-builder/README.md)
+中的完整操作步骤。生成的 `.deb` 已被 Git 忽略，只能传到自己的设备本地安装，
+不得提交到本公开仓库。
 
 目前公开支持范围仅为 iOS/iPadOS 16 rootless 越狱环境。
