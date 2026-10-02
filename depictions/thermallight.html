@@ -11,13 +11,13 @@
   </style>
 </head>
 <body>
-  <h1>ThermalLightControl 3.5.0</h1>
+  <h1>ThermalLightControl 3.5.1</h1>
   <p>Prevents thermal brightness caps on iPadOS 16 rootless jailbreaks while preserving CPU/GPU
     throttling, temperature monitoring, thermal warnings, watchdog, and emergency shutdown.</p>
   <h2>What's new</h2>
-  <p>Version 3.5.0 intercepts the verified iPadOS 16.1 (20B82) AABC final thermal display-ceiling
-    function. It validates the exact machine-code signature before hooking and includes a cross-PID
-    circuit breaker so an unvalidated attempt cannot cause a repeated backboardd crash loop.</p>
+  <p>Version 3.5.1 fixes an ARC object-lifetime bug that could over-release the CoreBrightness
+    controller during repeated EDR/RTPLC updates. It also bars the install-time backboardd PID and
+    permits only one validated attempt on the next clean process.</p>
   <h2>Compatibility</h2>
   <p>Verified on iPadOS 16.1 with a rootless jailbreak and ElleKit. Published support is limited to
     iOS/iPadOS 16.</p>
@@ -30,8 +30,8 @@
   <hr>
   <h2>中文说明</h2>
   <p>阻止 iPadOS 16 温控系统强制压低屏幕亮度，同时保留 CPU/GPU 降频、温度监控、过热提示、
-    watchdog 和紧急关机保护。3.5.0 拦截已验证的 iPadOS 16.1（20B82）AABC 最终温控显示上限
-    函数，并在加载前核对精确机器码；跨 PID 熔断器可防止未验证版本反复令 backboardd 崩溃。
+    watchdog 和紧急关机保护。3.5.1 修复反复更新 EDR/RTPLC 时可能过度释放 CoreBrightness
+    控制器的问题；同时禁止向安装时的 backboardd PID 注入，仅允许在下一个干净进程中进行一次验证尝试。
     设备异常发热时请关闭插件。</p>
 </body>
 </html>
