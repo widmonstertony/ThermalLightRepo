@@ -2,3 +2,4 @@
 tools/newt66y-local-builder/output/
 tools/newt66y-local-builder/*.ipa
 tools/newt66y-local-builder/*.deb
+dist/

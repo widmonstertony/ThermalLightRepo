@@ -1,12 +1,12 @@
-Origin: widmonstertony
+Origin: tony
 Label: Tony Repo
 Suite: stable
-Version: 1.0
+Version: 2026.10.1
 Codename: tonyrepo
 Architectures: iphoneos-arm64
 Components: main
-Description: Personal rootless jailbreak tweak repository by widmonstertony
-Date: Thu, 01 Oct 2026 17:03:33 UTC
+Description: Original jailbreak hacks, fixes, tools, and experiments by tony
+Date: Fri, 02 Oct 2026 05:09:57 UTC
 MD5Sum:
  aceee07e29fdc37223bf8bcd361867da 1638 Packages
  da26b5ca9aa02539faeb250e2bb60675 775 Packages.gz

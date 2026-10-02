@@ -1,6 +1,8 @@
-# Tony Repo
+# Tony Repo — iOS/iPadOS 16 Rootless APT Source
 
-Personal APT repository by widmonstertony for rootless jailbreak tweaks.
+Personal APT repository for original jailbreak hacks, fixes, tools, and
+experiments by tony. The currently published packages target
+iOS/iPadOS 16 rootless jailbreaks and can be installed through Sileo or Zebra.
 
 Repository URL:
 
@@ -9,6 +11,10 @@ https://widmonstertony.github.io/tonyrepo/
 ```
 
 Add the URL to Sileo or Zebra and refresh sources.
+
+[Add to Sileo](sileo://source/https://widmonstertony.github.io/tonyrepo/) ·
+[Add to Zebra](zbra://sources/add/https://widmonstertony.github.io/tonyrepo/) ·
+[Open repository page](https://widmonstertony.github.io/tonyrepo/)
 
 ## Packages
 
@@ -43,9 +49,15 @@ Published compatibility is limited to iOS/iPadOS 16 rootless jailbreaks.
 
 ---
 
-# Tony Repo 中文说明
+# Tony Repo 中文说明 — iOS/iPadOS 16 Rootless 越狱源
 
-这是 widmonstertony 的个人 rootless 越狱插件源。将上面的地址添加到 Sileo 或 Zebra 后刷新软件源即可。
+这是 tony 发布个人原创 hack、修复、工具与实验项目的长期越狱源。
+目前公开的软件包面向 iOS/iPadOS 16 rootless 越狱环境。将上面的地址添加到
+Sileo 或 Zebra 后刷新软件源即可。
+
+[一键添加到 Sileo](sileo://source/https://widmonstertony.github.io/tonyrepo/) ·
+[一键添加到 Zebra](zbra://sources/add/https://widmonstertony.github.io/tonyrepo/) ·
+[打开软件源页面](https://widmonstertony.github.io/tonyrepo/)
 
 - **ThermalLightControl 3.3.0**：阻止 iPadOS 16 温控系统强制降低屏幕亮度，同时保留 CPU/GPU 降频、温度监控、过热警告、watchdog 和紧急关机保护。
 - **VirtualMac Audio Stability Fix 1.0.1**：保留 VirtualMac 的麦克风与扬声器功能，并修复 iPadOS 16.1 上 MediaExperience/正在播放模块销毁时的竞态崩溃。
