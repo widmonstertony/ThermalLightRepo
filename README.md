@@ -22,6 +22,16 @@ Add the URL to Sileo or Zebra and refresh sources.
 - **VirtualMac Audio Stability Fix 1.0.1** — preserves VirtualMac microphone and speaker support while preventing the iPadOS 16.1 MediaExperience/Now Playing teardown race.
 - **Virtual Mac 1.2.3+609.pause2** — a modified build of the upstream MIT-licensed project with native in-memory Pause/Resume controls and a startup menu-refresh fix. Supported only on the upstream-compatible M1/M2 iPads running iPadOS 14.5–16.3.1.
 
+## Grass Mac Browser
+
+The native Universal 2 macOS client is maintained in the separate
+[`widmonstertony/newt66y-mac-universal`](https://github.com/widmonstertony/newt66y-mac-universal)
+repository. One package runs natively on both Intel (`x86_64`) and Apple
+silicon (`arm64`) Macs.
+
+[Download v1.3.0](https://github.com/widmonstertony/newt66y-mac-universal/releases/tag/v1.3.0) ·
+[Bilingual installation guide](https://github.com/widmonstertony/newt66y-mac-universal#readme)
+
 ## NewT66y 2.3.7 local universal builder
 
 This repository does **not** redistribute NewT66y, its IPA, app bundle, icon, or a
@@ -66,6 +76,16 @@ Sileo 或 Zebra 后刷新软件源即可。
 - **ThermalLightControl 3.5.2**：拦截《崩坏：星穹铁道》等游戏会触发的 `CBDisplayModuleiOS` `DisplayBrightness` 直达路径，防止 SDR 输出被压到 153.448 nit，同时保留 CPU/GPU 降频、温度监控、过热警告、watchdog 和紧急关机保护。
 - **VirtualMac Audio Stability Fix 1.0.1**：保留 VirtualMac 的麦克风与扬声器功能，并修复 iPadOS 16.1 上 MediaExperience/正在播放模块销毁时的竞态崩溃。
 - **Virtual Mac 1.2.3+609.pause2**：基于上游 MIT 开源项目的修改版，加入原生内存暂停/恢复以及虚拟机启动后自动刷新菜单的修复。仅支持上游兼容的 M1/M2 iPad 与 iPadOS 14.5–16.3.1。
+
+## 小草 Mac 浏览器
+
+原生 Universal 2 macOS 客户端已放在独立的
+[`widmonstertony/newt66y-mac-universal`](https://github.com/widmonstertony/newt66y-mac-universal)
+仓库。同一个安装包同时原生支持 Intel (`x86_64`) 与 Apple silicon
+(`arm64`) Mac。
+
+[下载 v1.3.0](https://github.com/widmonstertony/newt66y-mac-universal/releases/tag/v1.3.0) ·
+[中英文安装说明](https://github.com/widmonstertony/newt66y-mac-universal#readme)
 
 ## NewT66y 2.3.7 本地通用构建工具
 
