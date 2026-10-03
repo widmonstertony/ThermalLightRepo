@@ -29,7 +29,7 @@ The native Universal 2 macOS client is maintained in the separate
 repository. One package runs natively on both Intel (`x86_64`) and Apple
 silicon (`arm64`) Macs.
 
-[Download v1.3.0](https://github.com/widmonstertony/newt66y-mac-universal/releases/tag/v1.3.0) ·
+[Download v1.4.0](https://github.com/widmonstertony/newt66y-mac-universal/releases/tag/v1.4.0) ·
 [Bilingual installation guide](https://github.com/widmonstertony/newt66y-mac-universal#readme)
 
 ## NewT66y 2.3.7 local universal builder
@@ -84,7 +84,7 @@ Sileo 或 Zebra 后刷新软件源即可。
 仓库。同一个安装包同时原生支持 Intel (`x86_64`) 与 Apple silicon
 (`arm64`) Mac。
 
-[下载 v1.3.0](https://github.com/widmonstertony/newt66y-mac-universal/releases/tag/v1.3.0) ·
+[下载 v1.4.0](https://github.com/widmonstertony/newt66y-mac-universal/releases/tag/v1.4.0) ·
 [中英文安装说明](https://github.com/widmonstertony/newt66y-mac-universal#readme)
 
 ## NewT66y 2.3.7 本地通用构建工具
