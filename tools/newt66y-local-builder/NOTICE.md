@@ -12,3 +12,14 @@ authorized to use the input IPA.
 The reference SHA-256 in `build.sh` identifies only the input copy used for
 local compatibility testing. It is not a grant of rights, an endorsement, or a
 statement of ownership.
+
+`patch-source/`, `payload/NewTWebFixV8-ios.dylib`, and
+`tools/inject_macho.py` are original NewTWebFix compatibility components by
+tony. They are distributed under GNU Affero General Public License v3; see
+`PATCH-LICENSE-AGPL-3.0.txt`. The local packaging scripts and documentation in
+this directory remain under the MIT License in `LICENSE`.
+
+The download bridge interoperates with VidCatch v0.3.0. On iPad it uses Apple
+URLSession and AVFoundation directly; on Mac it connects only to the user's
+local VidCatch companion at `127.0.0.1:17368`. No hosted download service is
+bundled or contacted by this builder.

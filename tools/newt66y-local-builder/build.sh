@@ -7,20 +7,26 @@ EXPECTED_SHA256="feb2e4559025a45943bbace799fc9c2c81b7bed6a6d32579478d1368e76dc78
 EXPECTED_BUNDLE_ID="com.cl.NewT66y.2026"
 EXPECTED_VERSION="2.3.7"
 PACKAGE_ID="com.tony.newt66y.localbuild"
-PACKAGE_VERSION="2.3.7-1"
+PACKAGE_VERSION="2.3.7-2"
 ALLOW_OTHER_BUILD=0
+OUTPUT_FORMAT="deb"
 IPA_PATH=""
+PATCH_DYLIB="$SCRIPT_DIR/payload/NewTWebFixV8-ios.dylib"
+INJECT_TOOL="$SCRIPT_DIR/tools/inject_macho.py"
 
 usage() {
   cat <<'EOF'
 Usage:
   ./Build-NewT66y.command [/path/to/1024app_ios_2.3.7.ipa]
+  ./Build-Universal-IPA.command [/path/to/1024app_ios_2.3.7.ipa]
   ./build.sh [--accept-other-build] /path/to/1024app_ios_2.3.7.ipa
 
 The default mode accepts only the locally validated reference SHA-256. Use
 --accept-other-build only when you trust a differently signed/repacked copy.
 The bundle identifier, app version, archive layout, and arm64 executable are
 still validated.
+
+--ipa builds one IPA for iPad installation and PlayCover 3.1.0 import.
 EOF
 }
 
@@ -28,6 +34,10 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     --accept-other-build)
       ALLOW_OTHER_BUILD=1
+      shift
+      ;;
+    --ipa)
+      OUTPUT_FORMAT="ipa"
       shift
       ;;
     -h|--help)
@@ -69,12 +79,17 @@ if [[ ! -f "$IPA_PATH" ]]; then
   exit 1
 fi
 
-for command_name in unzip shasum file tar ar ditto; do
+for command_name in unzip shasum file tar ar ditto python3 codesign zip; do
   if ! command -v "$command_name" >/dev/null 2>&1; then
     echo "错误：缺少系统命令 $command_name。请在 macOS 上运行此工具。" >&2
     exit 1
   fi
 done
+
+if [[ ! -f "$PATCH_DYLIB" || ! -f "$INJECT_TOOL" ]]; then
+  echo "错误：构建工具缺少 NewTWebFix iOS 补丁或 Mach-O 注入工具。" >&2
+  exit 1
+fi
 
 if [[ ! -x /usr/libexec/PlistBuddy ]]; then
   echo "错误：找不到 macOS PlistBuddy。请在 macOS 上运行此工具。" >&2
@@ -156,12 +171,69 @@ if ! file "$SOURCE_APP/$EXECUTABLE_NAME" | grep -q 'Mach-O 64-bit executable arm
   exit 1
 fi
 
-TARGET_APP="$PACKAGE_ROOT/var/jb/Applications/NewT66y.app"
+if [[ "$OUTPUT_FORMAT" == "ipa" ]]; then
+  TARGET_APP="$WORK_DIR/ipa/Payload/NewT66y.app"
+  mkdir -p "$(dirname "$TARGET_APP")"
+else
+  TARGET_APP="$PACKAGE_ROOT/var/jb/Applications/NewT66y.app"
+fi
 ditto "$SOURCE_APP" "$TARGET_APP"
 rm -rf "$TARGET_APP/_CodeSignature"
 rm -f "$TARGET_APP/embedded.mobileprovision"
 find "$TARGET_APP" -name '.DS_Store' -delete
 chmod 0755 "$TARGET_APP/$EXECUTABLE_NAME"
+
+mkdir -p "$TARGET_APP/Frameworks"
+cp "$PATCH_DYLIB" "$TARGET_APP/Frameworks/NewTWebFixV8.dylib"
+chmod 0755 "$TARGET_APP/Frameworks/NewTWebFixV8.dylib"
+python3 "$INJECT_TOOL" \
+  "$TARGET_APP/$EXECUTABLE_NAME" \
+  "$WORK_DIR/$EXECUTABLE_NAME.patched" \
+  '@executable_path/Frameworks/NewTWebFixV8.dylib'
+mv "$WORK_DIR/$EXECUTABLE_NAME.patched" "$TARGET_APP/$EXECUTABLE_NAME"
+chmod 0755 "$TARGET_APP/$EXECUTABLE_NAME"
+
+/usr/libexec/PlistBuddy -c 'Set :CFBundleIdentifier com.cl.NewT66y.2026.webfix8' "$TARGET_APP/Info.plist"
+/usr/libexec/PlistBuddy -c 'Set :CFBundleDisplayName 小草补丁V8' "$TARGET_APP/Info.plist" 2>/dev/null || \
+  /usr/libexec/PlistBuddy -c 'Add :CFBundleDisplayName string 小草补丁V8' "$TARGET_APP/Info.plist"
+/usr/libexec/PlistBuddy -c 'Set :CFBundleName 小草补丁V8' "$TARGET_APP/Info.plist" 2>/dev/null || \
+  /usr/libexec/PlistBuddy -c 'Add :CFBundleName string 小草补丁V8' "$TARGET_APP/Info.plist"
+/usr/libexec/PlistBuddy -c 'Set :UIFileSharingEnabled true' "$TARGET_APP/Info.plist" 2>/dev/null || \
+  /usr/libexec/PlistBuddy -c 'Add :UIFileSharingEnabled bool true' "$TARGET_APP/Info.plist"
+/usr/libexec/PlistBuddy -c 'Set :LSSupportsOpeningDocumentsInPlace true' "$TARGET_APP/Info.plist" 2>/dev/null || \
+  /usr/libexec/PlistBuddy -c 'Add :LSSupportsOpeningDocumentsInPlace bool true' "$TARGET_APP/Info.plist"
+
+if [[ "$OUTPUT_FORMAT" == "ipa" ]]; then
+  codesign --force --sign - "$TARGET_APP/Frameworks/NewTWebFixV8.dylib"
+  codesign --force --deep --sign - "$TARGET_APP"
+  codesign --verify --deep --strict "$TARGET_APP"
+
+  OUTPUT_NAME="NewT66y-2.3.7-Universal-Mac-iPad-VidCatch.ipa"
+  OUTPUT_PATH="$OUTPUT_DIR/$OUTPUT_NAME"
+  rm -f "$OUTPUT_PATH"
+  (
+    cd "$WORK_DIR/ipa"
+    COPYFILE_DISABLE=1 zip -qry "$OUTPUT_PATH" Payload \
+      -x '*/.DS_Store' -x '*/._*' -x '__MACOSX/*'
+  )
+  unzip -t "$OUTPUT_PATH" >/dev/null
+  OUTPUT_SHA256="$(shasum -a 256 "$OUTPUT_PATH" | awk '{print $1}')"
+  cat <<EOF
+
+通用 IPA 构建成功：
+  $OUTPUT_PATH
+
+输入 IPA SHA-256：$IPA_SHA256
+输出 IPA SHA-256：$OUTPUT_SHA256
+
+iPad：使用 TrollStore、越狱安装器，或用自己的证书重新签名后安装。
+Mac：把同一份 IPA 导入 PlayCover 3.1.0；PlayCover 会转换为 Mac Catalyst。
+下载位置：iPad 的“文件 > 在我的 iPad 上 > 小草补丁V8 > VidCatch”。
+
+请勿把生成的 IPA 提交到公开仓库或转发给其他人。
+EOF
+  exit 0
+fi
 
 INSTALLED_SIZE="$(du -sk "$TARGET_APP" | awk '{print $1}')"
 cat >"$CONTROL_DIR/control" <<EOF
@@ -169,7 +241,7 @@ Package: $PACKAGE_ID
 Name: NewT66y 2.3.7 (Local Build)
 Version: $PACKAGE_VERSION
 Architecture: iphoneos-arm64
-Description: Locally repackaged NewT66y 2.3.7 for the owner's iOS/iPadOS 16 rootless jailbreak device. The public Tony Repo does not distribute the app binary.
+Description: Locally patched NewT66y 2.3.7 with iPad Files video download support for the owner's iOS/iPadOS 16 rootless jailbreak device. The public Tony Repo does not distribute the app binary.
 Maintainer: Local Builder User
 Author: Original application rights remain with their respective owner
 Section: Applications
@@ -190,10 +262,13 @@ cat >"$CONTROL_DIR/postinst" <<'EOF'
 set -e
 APP_PATH=/var/jb/Applications/NewT66y.app
 EXECUTABLE="$APP_PATH/NewT66y"
+PATCH_DYLIB="$APP_PATH/Frameworks/NewTWebFixV8.dylib"
 
 if command -v ldid >/dev/null 2>&1; then
+  ldid -S "$PATCH_DYLIB"
   ldid -S "$EXECUTABLE"
 elif [ -x /var/jb/usr/bin/ldid ]; then
+  /var/jb/usr/bin/ldid -S "$PATCH_DYLIB"
   /var/jb/usr/bin/ldid -S "$EXECUTABLE"
 else
   echo "NewT66y local package requires ldid." >&2
@@ -218,9 +293,9 @@ EOF
 cat >"$CONTROL_DIR/postrm" <<'EOF'
 #!/bin/sh
 if command -v uicache >/dev/null 2>&1; then
-  uicache -u com.cl.NewT66y.2026 || true
+  uicache -u com.cl.NewT66y.2026.webfix8 || true
 elif [ -x /var/jb/usr/bin/uicache ]; then
-  /var/jb/usr/bin/uicache -u com.cl.NewT66y.2026 || true
+  /var/jb/usr/bin/uicache -u com.cl.NewT66y.2026.webfix8 || true
 fi
 exit 0
 EOF

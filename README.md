@@ -22,20 +22,23 @@ Add the URL to Sileo or Zebra and refresh sources.
 - **VirtualMac Audio Stability Fix 1.0.1** — preserves VirtualMac microphone and speaker support while preventing the iPadOS 16.1 MediaExperience/Now Playing teardown race.
 - **Virtual Mac 1.2.3+609.pause2** — a modified build of the upstream MIT-licensed project with native in-memory Pause/Resume controls and a startup menu-refresh fix. Supported only on the upstream-compatible M1/M2 iPads running iPadOS 14.5–16.3.1.
 
-## NewT66y 2.3.7 local package builder
+## NewT66y 2.3.7 local universal builder
 
 This repository does **not** redistribute NewT66y, its IPA, app bundle, icon, or a
 package containing the app. The public builder only repackages a copy that the
-user has lawfully obtained into a rootless jailbreak package on the user's Mac.
+user has lawfully obtained into either a universal iPad/PlayCover IPA or a
+rootless jailbreak package on the user's Mac. The generated app includes the
+original NewTWebFix navigation, input, Touch Bar, and VidCatch download bridge.
 
 1. Download or clone this repository on a Mac.
 2. Put your own `1024app_ios_2.3.7.ipa` beside
    `tools/newt66y-local-builder/Build-NewT66y.command`, or drag the IPA onto that
    command file in Terminal.
-3. Run `Build-NewT66y.command`.
-4. Transfer the generated `.deb` from the local `output` folder to your own
-   iOS/iPadOS 16 rootless jailbreak device and install it locally with Sileo,
-   Zebra, Filza, or `dpkg`.
+3. Run `Build-Universal-IPA.command` for one IPA that can be installed on iPad
+   and imported by PlayCover 3.1.0, or run `Build-NewT66y.command` for a
+   rootless `.deb`.
+4. Install the locally generated result only on your own device. On iPad,
+   downloaded videos appear under `Files > On My iPad > 小草补丁V8 > VidCatch`.
 
 Full instructions and the legal/provenance notice are in
 [`tools/newt66y-local-builder/README.md`](tools/newt66y-local-builder/README.md).
@@ -64,11 +67,14 @@ Sileo 或 Zebra 后刷新软件源即可。
 - **VirtualMac Audio Stability Fix 1.0.1**：保留 VirtualMac 的麦克风与扬声器功能，并修复 iPadOS 16.1 上 MediaExperience/正在播放模块销毁时的竞态崩溃。
 - **Virtual Mac 1.2.3+609.pause2**：基于上游 MIT 开源项目的修改版，加入原生内存暂停/恢复以及虚拟机启动后自动刷新菜单的修复。仅支持上游兼容的 M1/M2 iPad 与 iPadOS 14.5–16.3.1。
 
-## NewT66y 2.3.7 本地打包工具
+## NewT66y 2.3.7 本地通用构建工具
 
 本仓库**不提供或再分发**小草/NewT66y 的 IPA、App、图标或包含 App 的安装包。
 公开内容只有原创打包脚本；用户必须在自己的 Mac 上提供自己合法取得的
-`1024app_ios_2.3.7.ipa`，脚本才会在本地生成 rootless `.deb`。
+`1024app_ios_2.3.7.ipa`。脚本可以在本地生成一份同时供 iPad 与 PlayCover 3.1.0
+使用的通用 IPA，或者生成 rootless `.deb`。生成的 App 包含 NewTWebFix 的导航、
+输入、Touch Bar 与 VidCatch 下载桥接；iPad 下载文件保存在“文件 > 在我的 iPad 上
+> 小草补丁V8 > VidCatch”。
 
 请阅读
 [`tools/newt66y-local-builder/README.md`](tools/newt66y-local-builder/README.md)
